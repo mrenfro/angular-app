@@ -1,0 +1,40 @@
+{
+  "name": "ng-starter-app",
+  "version": "16.0.0",
+  "description": "PBDS Angular Starter Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "cd client && npm start",
+    "setup": "(npm install) && (cd client && npm install)",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": "prettier --check \"client/src/app/**/*.{js,ts,json,html,scss}\"",
+    "format:fix": "prettier --write \"client/src/app/**/*.{js,ts,json,html,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PBGUX/ng-starter-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.45.0",
+    "@typescript-eslint/eslint-plugin-tslint": "5.45.0",
+    "@typescript-eslint/parser": "5.45.0",
+    "eslint": "8.29.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "3.5.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-json": "3.1.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "typescript": "4.4.4"
+  },
+  "devDependencies": {
+    "prettier": "2.8.0",
+    "stylelint": "14.16.0",
+    "stylelint-config-prettier": "9.0.4",
+    "stylelint-config-recommended-scss": "8.0.0",
+    "stylelint-prettier": "2.0.0",
+    "stylelint-scss": "4.3.0"
+  }
+}
